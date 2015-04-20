@@ -4,7 +4,7 @@ class PurchaseMailer < ActionMailer::Base
 
 	def purchase_receipt purchase
 		@purchase = purchase
-		mail to: purchase.email, subject: "Thanks for your purhcase"
+		mail to: purchase.email, subject: "Thanks for your purchase"
 	end
 
 end
